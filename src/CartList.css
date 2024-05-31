@@ -1,0 +1,60 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .header-link {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .header-link:hover {
+    text-decoration: none; /* Remove underline */
+    color: #ff0000; /* Change color to red (you can replace it with any color you prefer) */
+  }
+  
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin: 16px;
+    width: 200px;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-details {
+    margin-top: 10px;
+  }
+  
+  .remove-from-cart-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .remove-from-cart-button:hover {
+    background-color: #c82333;
+  }
+
+  .empty-cart-message {
+    font-size: 1.5em;
+    /* font-weight: bolder; */
+    color: #555;
+    text-align: center;
+    margin-top: 100px;
+  }
